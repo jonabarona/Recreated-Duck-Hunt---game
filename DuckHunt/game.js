@@ -131,13 +131,13 @@ function moveAim() {
     if (pressedKeys.w || pressedKeys.ArrowUp) {
         aim.moveInDirection(aimSpeed, 'up')
     }
-    else if (pressedKeys.a || pressedKeys.ArrowLeft) {
+    if (pressedKeys.a || pressedKeys.ArrowLeft) {
         aim.moveInDirection(aimSpeed, 'left')
     }
-    else if (pressedKeys.s || pressedKeys.ArrowDown) {
+    if (pressedKeys.s || pressedKeys.ArrowDown) {
         aim.moveInDirection(aimSpeed, 'down')
     }
-    else if (pressedKeys.d || pressedKeys.ArrowRight) {
+    if (pressedKeys.d || pressedKeys.ArrowRight) {
         aim.moveInDirection(aimSpeed, 'right')
     }
 }
