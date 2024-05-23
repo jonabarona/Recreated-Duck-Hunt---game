@@ -11,9 +11,11 @@
 
 ## Hvordan starte spillet?
 #### 1. Åpne terminalen/ledetekst
-#### 2. cd /your_file
-#### 3. git clone "https://github.com/jonabarona/Recreated-Duck-Hunt---game.git"
-#### 4. Når den er klonet, dobbelklikk html filen kalt "index"
+#### 2. skriv: cd /your_file
+#### 3. skriv: git clone "https://github.com/jonabarona/Recreated-Duck-Hunt---game.git"
+#### 4. Når den er klonet, åpne filen, finn html koden
+#### 5. dobbelklikk html filen kalt "index"
+#### 6. Kos deg!
 
 ## Refleksjon
 ### Noen bugs?
