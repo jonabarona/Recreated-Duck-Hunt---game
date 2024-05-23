@@ -132,7 +132,7 @@
     right: 20px;
     justify-content: center;
     text-align: center;
-    z-index: 2;
+    z-index: 4;
 }
 
 #scoreId {
