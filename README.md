@@ -10,7 +10,10 @@
 #### Dette er et spill som er en gjenskapelse av retro spillet, "Duck Hunt (NES)". Spillet er skapt av Nintendo i 1984. Du jakter på ender med et gevær. Du bruker WASD for å bevege siktet ditt, og bruker "H" til å fyre av. Endene flyr ut av et høyt gress i tilfeldig retning. Man kan ikke sikte på gresset og bare i himmelen. I gresset er endene trygge. Du scorer poeng hver gang du treffer en and. For hver and har man tre skudd. Bommer man på alle får man game over. Endene flyr vekk etter 5 sekunder og en ny kommer 3 sekunder etter. Etter man har skutt 10 ender, er det ny runde, og man endene blir +0.5 raskere (de starter på 4)
 
 ## Hvordan starte spillet?
-#### 
+#### 1. Åpne terminalen/ledetekst
+#### 2. cd /your_file
+#### 3. git clone "https://github.com/jonabarona/Recreated-Duck-Hunt---game.git"
+#### 4. Når den er klonet, høyreklikk html filen, velg open in browser
 
 ## Refleksjon
 ### Noen bugs?
