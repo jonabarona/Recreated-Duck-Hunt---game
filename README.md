@@ -6,19 +6,11 @@
 ## Inspiration:
 ![Inspirasjon](./DuckHunt/assets/DuckHunt_Inspirasjon.jpg)
 
-## Hva går spillet ut på?
+## Hva går spillet ut på, og hvordan fungerer det?
 #### Dette er et spill som er en gjenskapelse av retro spillet, "Duck Hunt (NES)". Spillet er skapt av Nintendo i 1984. Du jakter på ender med et gevær. Du bruker WASD for å bevege siktet ditt, og bruker "H" til å fyre av. Endene flyr ut av et høyt gress i tilfeldig retning. Man kan ikke sikte på gresset og bare i himmelen. I gresset er endene trygge. Du scorer poeng hver gang du treffer en and. For hver and har man tre skudd. Bommer man på alle får man game over. Endene flyr vekk etter 5 sekunder og en ny kommer 3 sekunder etter. Etter man har skutt 10 ender, er det ny runde, og man endene blir +0.5 raskere (de starter på 4)
 
 ## Hvordan starte spillet?
-###
-
-## Linker og Credits
-### Video av orginale spillet:
-[Video Link](https://youtu.be/J3sfsP9W048?si=ADbCoXGZ5kJ2p43a)
-
-### Assets:
-[Assets Link](https://www.spriters-resource.com/nes/duckhunt/)
-
+#### 
 
 ## Refleksjon
 ### Noen bugs?
@@ -29,4 +21,17 @@
 
 ### Hvis tid:
 #### 1. Hvis jeg hadde hatt mer tid, ville jeg lagt til den ikoniske "hunde maskotten", som man kan se på videoen. Dette hadde bare vært for det visuelle, og ikke for spillets funksjonalitet.
-#### 2. Jeg ville også ha lagt til lydeffekter til spillet. Slik som det er i det originale."# Recreated-Duck-Hunt---game" 
+#### 2. Jeg ville også ha lagt til lydeffekter til spillet. Slik som det er i det originale."# 
+
+## Lisens
+#### Alle har lov til å bruke spillet, og bruke koden selv til ens eget behov. Dette gjelder å ta enkelte biter av koden, eller forandre/forbedre koden.
+
+## Linker og Credits
+### Video av orginale spillet:
+[Video Link](https://youtu.be/J3sfsP9W048?si=ADbCoXGZ5kJ2p43a)
+
+### Assets:
+[Assets Link](https://www.spriters-resource.com/nes/duckhunt/)
+
+
+Recreated-Duck-Hunt---game" 
