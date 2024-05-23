@@ -13,7 +13,7 @@
 #### 1. Åpne terminalen/ledetekst
 #### 2. cd /your_file
 #### 3. git clone "https://github.com/jonabarona/Recreated-Duck-Hunt---game.git"
-#### 4. Når den er klonet, høyreklikk html filen, velg open in browser
+#### 4. Når den er klonet, dobbelklikk html filen kalt "index"
 
 ## Refleksjon
 ### Noen bugs?
