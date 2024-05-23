@@ -1,0 +1,199 @@
+:root {
+    background-color: rgb(37, 37, 37);
+    font-family: retroFont;
+}
+
+#game {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    border: 10px solid white;
+    margin-left: 15%;
+    background-image: url('assets/background_asset.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center -67px;
+}
+
+#gameOverScreen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 3;
+    color: white;
+    display: none;
+    justify-content: center;
+    text-align: center;
+}
+
+#startScreen {
+    position: absolute;
+    width: 400px;
+    height: 290px;
+    background-color: black;
+    z-index: 2;
+    left: 200px;
+    top: 10px;
+    border: 5px solid rgb(81, 178, 63);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+#newRoundBox {
+    position: absolute;
+    width: 400px;
+    height: 160px;
+    background-color: black;
+    z-index: 2;
+    left: 200px;
+    top: 180px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    display: none;
+    animation: changeBorderColor 0.4s infinite;
+}
+
+#startBtn {
+    position: relative;
+    width: 330px;
+    height: 170px;
+    top: 10px;
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+    font-size: 50px;
+    border-radius: 10px;
+    font-family: retroFont;
+    animation: changeBorderColor 0.8s infinite;
+}
+
+#tryAgainBtn {
+    position: relative;
+    width: 300px;
+    height: 170px;
+    top: 40px;
+    background-color: black;
+    color: white;
+    border: 5px solid white;
+    font-size: 50px;
+    border-radius: 10px;
+    font-family: retroFont;
+    animation: changeBorderColor 0.8s infinite;
+}
+
+#gameArea {
+    position: relative;
+    width: 800px;
+    height: 400px;
+}
+
+#tallGrass {
+    position: relative;
+    width: 800px;
+    height: 100px;
+}
+
+#container {
+    position: relative;
+    display: flex;
+    top: 40px;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    
+}
+
+#bulletIndex {
+    position: relative;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: 5px solid rgb(81, 178, 63);
+    border-radius: 10px;
+    display: flex;
+    left: 20px;
+    justify-content: center;
+}
+
+#scoreIndex {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: 5px solid rgb(81, 178, 63);
+    border-radius: 10px;
+    display: flex;
+    right: 20px;
+    justify-content: center;
+    text-align: center;
+    z-index: 2;
+}
+
+#scoreId {
+    position: absolute;
+}
+
+#bulletId {
+    position: absolute;
+}
+
+#aim {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    left: 50%;
+    top: 50%;
+    background-image: url('assets/aimpoint.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    z-index: 1;
+}
+
+.duck {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    z-index: 2;
+    background-size: cover;
+    animation: swapBackground 0.4s infinite;
+}
+
+@font-face {
+    font-family: retroFont;
+    src: url(assets/Retro_Gaming.ttf);
+}
+
+@keyframes changeBorderColor {
+    0% {border: 5px solid rgb(81, 178, 63);}
+    50% {border: 5px solid rgb(81, 178, 63);}
+    51% {border: 5px solid rgb(255, 255, 255);}
+    100% {border: 5px solid rgb(255, 255, 255);}
+}
+
+@keyframes swapBackground {
+    0% {
+        background-image: url('assets/duck_1.png');
+    }
+    33% {
+        background-image: url('assets/duck_1.png');
+    }
+    34% {
+        background-image: url('assets/duck_2.png');
+    }
+    66% {
+        background-image: url('assets/duck_2.png');
+    }
+    67% {
+        background-image: url('assets/duck_3.png');
+    }
+    100% {
+        background-image: url('assets/duck_3.png');
+    }
+}
