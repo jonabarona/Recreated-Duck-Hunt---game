@@ -7,7 +7,7 @@
 ![Inspirasjon](./DuckHunt/assets/DuckHunt_Inspirasjon.jpg)
 
 ## Hva går spillet ut på, og hvordan fungerer det?
-#### Dette er et spill som er en gjenskapelse av retro spillet, "Duck Hunt (NES)". Spillet er skapt av Nintendo i 1984. Du jakter på ender med et gevær. Du bruker WASD for å bevege siktet ditt, og bruker "H" til å fyre av. Endene flyr ut av et høyt gress i tilfeldig retning. Man kan ikke sikte på gresset og bare i himmelen. I gresset er endene trygge. Du scorer poeng hver gang du treffer en and. For hver and har man tre skudd. Bommer man på alle får man game over. Endene flyr vekk etter 5 sekunder og en ny kommer 3 sekunder etter. Etter man har skutt 10 ender, er det ny runde, og man endene blir +0.5 raskere (de starter på 4)
+#### Dette spillet er en nyversjon av det klassiske retrospillet "Duck Hunt (NES)", opprinnelig utviklet av Nintendo i 1984. Målet er å jakte på ender med et gevær. Spilleren bruker tastene WASD for å bevege siktet, og tasten "H" for å skyte. Endene flyr ut fra et høyt gress i tilfeldige retninger, men kan ikke treffes når de er i gresset, kun når de er i luften. Hver gang en and treffes, får spilleren poeng. For hver and har spilleren tre skudd til rådighet. Hvis alle skuddene bommer, blir det game over. Endene flyr bort etter 5 sekunder, og en ny and dukker opp 3 sekunder senere. Etter at spilleren har skutt 10 ender, starter en ny runde, og endene flyr 0.5 enheter raskere for hver runde.
 
 ## Hvordan starte spillet?
 #### 1. Åpne terminalen/ledetekst

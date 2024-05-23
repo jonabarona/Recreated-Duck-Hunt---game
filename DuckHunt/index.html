@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Duck hunt</title>
+    <title>Duck Hunt</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,22 +15,26 @@
             <p>You have 5 seconds before the ducks fly away.</p>
             <p>You have only 3 shots for each duck.</p>
             <p>Press "h" to shoot your gun.</p>
-            <p>Move with WASD or keys</p>
+            <p>Move with WASD or arrow keys.</p>
             <button id="startBtn">Start game!</button>
         </div>
+        
         <div id="gameOverScreen">
             <h1>Game Over</h1>
             <h2>You've got to shoot faster!</h2>
             <h2>The duck flew away...</h2>
             <button id="tryAgainBtn" onclick="tryAgain()">Try Again?</button>
         </div>
+        
         <div id="newRoundBox">
             <h1>Round</h1>
             <h1 id="roundNumberId">1</h1>
         </div>
+        
         <div id="gameArea">
             <div id="aim"></div>
         </div>
+        
         <div id="tallGrass">
             <div id="container">
                 <div id="bulletIndex">
@@ -39,7 +43,7 @@
                 </div>            
                 <div id="scoreIndex">
                     <label>SCORE:</label>
-                    <p id=scoreId>0</p>
+                    <p id="scoreId">0</p>
                 </div>
             </div> 
         </div>
