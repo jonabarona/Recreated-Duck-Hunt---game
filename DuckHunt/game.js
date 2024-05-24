@@ -162,18 +162,17 @@ function moveDuck(duck) {
 
 // Function to handle shooting actions
 function shot() {
+    if (shotCount >= 3) {
+        gameOver = true
+    }
+
     const aimElement = document.getElementById('aim');
     aimElement.style.backgroundColor = pressedKeys.h ? 'white' : '';
-
-    if (shotCount >= 3) {
-        gameOver = true;
-    }
 
     if (pressedKeys.h && !shotPressed) {
         shotPressed = true; 
         shotCount++;
-        decreaseBullets();
-        
+
         if (collidedDuck) {
             collidedDuck.element.remove();
             ducks.splice(ducks.indexOf(collidedDuck), 1);
@@ -181,12 +180,12 @@ function shot() {
             aim.increaseScore();
             shotCount = 0;
             duckShotCounter++;
-            setTimeout(spawnDuck, 3000);
-
             if ((duckShotCounter === 10)) {
-                newRoundChanges();
+                newRoundChanges()
             }
-        } 
+            setTimeout(spawnDuck, 3000);
+        }
+        decreaseBullets()
     }
 }
 
