@@ -142,13 +142,13 @@ function moveAim() {
     if (pressedKeys.w || pressedKeys.ArrowUp) {
         aim.moveInDirection(aimSpeed, 'up');
     }
-    if (pressedKeys.a || pressedKeys.ArrowLeft) {
+    else if(pressedKeys.a || pressedKeys.ArrowLeft) {
         aim.moveInDirection(aimSpeed, 'left');
     }
-    if (pressedKeys.s || pressedKeys.ArrowDown) {
+    else if (pressedKeys.s || pressedKeys.ArrowDown) {
         aim.moveInDirection(aimSpeed, 'down');
     }
-    if (pressedKeys.d || pressedKeys.ArrowRight) {
+    else if (pressedKeys.d || pressedKeys.ArrowRight) {
         aim.moveInDirection(aimSpeed, 'right');
     }
 }
@@ -194,7 +194,7 @@ function newRoundChanges() {
     roundNumber++; 
     console.log("round", roundNumber);
     duckShotCounter = 0;
-    duckSpeed += 0.5;
+    duckSpeed += 1;
     roundBox();
 }
 
